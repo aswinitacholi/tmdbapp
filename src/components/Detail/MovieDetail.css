@@ -1,0 +1,81 @@
+.movie-data {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 55%;
+    flex:0 1 55%;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.movie-name {
+    margin-top: 0;
+    margin-bottom: 0.1em;
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.movie-tagline, .movie-category {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    font-family: 'Sofia Sans Extra Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    color: rgb(54, 235, 54);
+}
+
+.movie-category {
+    margin-bottom: 0;
+}
+
+.movie-detail {
+    display:flex;
+    
+}
+
+.movie-img {
+    flex: 0 1 45%;
+}
+
+.movie-synopsis {
+    text-align: justify;
+    margin-block:0;
+}
+
+.movie-producer {
+    font-family: 'Sofia Sans Extra Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    color: rgb(54, 235, 54);
+    font-size: 1.25rem;
+    margin-block: 0;
+    grid-column: 1 / -1;
+}
+
+.movie-meta-key {
+    font-size: 1.25rem;
+    margin-block:0;
+}
+
+.movie-meta-value {
+    font-family: 'Sofia Sans Extra Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    color: rgb(54, 235, 54);
+    font-size: 2rem;
+    margin-block: 0;
+}
+.movie-data-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.movie-meta-data {
+    grid-column: 1 / -1;
+}
